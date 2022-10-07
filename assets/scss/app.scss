@@ -1,0 +1,55 @@
+@import "./variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;700&display=swap');
+
+
+
+
+@import"../scss/mixin";
+@import"../scss/titles";
+@import"../scss/variables";
+@import"../scss/function";
+
+
+
+
+body{
+    font-family: 'Kreon', serif;
+    
+    
+}
+
+
+.partners{
+    
+        img{
+            @include partnerLogo(40%,auto);           
+        }
+    display: flex;
+    justify-content: center;
+
+}
+
+div{
+    border-radius:5px;
+}
+
+    .card-img{
+        position: relative;
+       top:  0;
+    }
+
+    h5{
+        font-size: 2rem;
+    }
+
+
+    @media (max-width: 480px) {
+        .card-img-overlay{
+            .card-title{
+                font-size: 1rem;
+                
+             }
+        }
+
+    }

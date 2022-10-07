@@ -1,0 +1,24 @@
+{
+  "name": "u2-w6-d5-",
+  "version": "1.0.0",
+  "description": "progetto sett",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch" : "sass assets/scss/app.scss assets/css/styles.css -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aras-pourbijan/U2-W6-D5.git"
+  },
+  "author": "Aras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aras-pourbijan/U2-W6-D5/issues"
+  },
+  "homepage": "https://github.com/aras-pourbijan/U2-W6-D5#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

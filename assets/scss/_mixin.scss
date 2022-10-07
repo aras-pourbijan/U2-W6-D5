@@ -1,0 +1,9 @@
+@mixin partnerLogo($x,$y) {
+
+    width:$x;
+    height:$y;
+    object-fit: contain;
+    filter: grayscale(1);
+    margin-bottom: 15%;
+        
+}
