@@ -1,55 +1,45 @@
 @import "./variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;700&display=swap");
 
+@import "../scss/mixin";
+@import "../scss/titles";
+@import "../scss/variables";
+@import "../scss/function";
 
-
-
-@import"../scss/mixin";
-@import"../scss/titles";
-@import"../scss/variables";
-@import"../scss/function";
-
-
-
-
-body{
-    font-family: 'Kreon', serif;
-    
-    
+body {
+    font-family: "Kreon", serif;
 }
 
-
-.partners{
-    
-        img{
-            @include partnerLogo(40%,auto);           
-        }
+.partners {
+    img {
+        @include partnerLogo(40%, auto);
+    }
     display: flex;
     justify-content: center;
-
 }
 
-div{
-    border-radius:5px;
+main {
+    div {
+        border-radius: 5px;
+    }
 }
 
-    .card-img{
-        position: relative;
-       top:  0;
-    }
+.card-img {
+    position: relative;
+    top: 0;
+    height: 30vh;
+    object-fit: cover;
+}
 
-    h5{
-        font-size: 2rem;
-    }
+h5 {
+    font-size: 2rem;
+}
 
-
-    @media (max-width: 480px) {
-        .card-img-overlay{
-            .card-title{
-                font-size: 1rem;
-                
-             }
+@media (max-width: 480px) {
+    .card-img-overlay {
+        .card-title {
+            font-size: 1rem;
         }
-
     }
+}
