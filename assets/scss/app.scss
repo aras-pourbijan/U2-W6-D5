@@ -43,3 +43,12 @@ h5 {
         }
     }
 }
+
+.dark-mode-costom {
+    background-color: rgb(26, 26, 26);
+    color: blanchedalmond;
+}
+
+.invert-color {
+    filter: invert(grayscale(1));
+}
